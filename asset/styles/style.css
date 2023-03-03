@@ -20,13 +20,24 @@ html{
     width:35%;
     margin:1rem auto;
 }
+
 #health-levels h2{
     font-size: 2rem;
     padding:1rem 0;
 }
 #health-levels progress{
-    width:100%;
-    padding:2rem;
+    width:80%;
+    margin:1rem 0;
+    height: 2rem;
+    color: #ff0062;
+    border: 1px solid #a927f5;
+   
+}
+#bonus-life{
+    background:tomato;
+    color:#fff;
+    padding:0.5rem 1rem;
+    border-radius: 4px;
 }
 #controls button{
     border:none;
@@ -37,5 +48,12 @@ html{
     font-size: 1.3rem;
     margin:.5rem 0;
     padding:2rem 1rem;
+    border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
+    transition:all .2s ease-in;
+}
+#controls button:hover{
+    background:#ff47e6;
+    color:#fff;
 }
